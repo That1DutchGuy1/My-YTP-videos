@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url('https://raw.githubusercontent.com/stangertrashcan2003/Comic-Sans-MS-Host/main/Comic-Sans-MS.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    background: linear-gradient(45deg, red, blue);
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+h1 {
+    color: #00ff00;
+    text-align: center;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+.thumbnail-1, .thumbnail-2, .thumbnail-3 {
+    display: block;          
+    margin: 20px auto;       
+    width: 400px;
+    background-size: cover;
+    border: 5px solid #00ff00;
+    border-radius: 10px;
+}
